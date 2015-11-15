@@ -1,5 +1,5 @@
 //
-//  PAC123_AppDelegate.h
+//  PCAppDelegate.h
 //  assignment
 //
 //  Created by Patrick Cunningham on 26/01/2014.
@@ -7,9 +7,12 @@
 //
 
 #import <UIKit/UIKit.h>
+#import "PCFeed.h"
+#import <CoreLocation/CoreLocation.h>
 
-@interface PAC123_AppDelegate : UIResponder <UIApplicationDelegate>
+@interface PCAppDelegate : UIResponder <UIApplicationDelegate>
 
 @property (strong, nonatomic) UIWindow *window;
+@property (strong, nonatomic) PCFeed *feed;
 
 @end

@@ -1,20 +1,41 @@
 //
-//  PAC123_AppDelegate.m
+//  PCAppDelegate.m
 //  assignment
 //
 //  Created by Patrick Cunningham on 26/01/2014.
 //  Copyright (c) 2014 Patrick Cunningham. All rights reserved.
 //
 
-#import "PAC123_AppDelegate.h"
+#import "PCAppDelegate.h"
+#import "PCRootViewController.h"
+#import "PCRSSReader.h"
 
-@implementation PAC123_AppDelegate
+
+@implementation PCAppDelegate
 
 - (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions
 {
-    self.window = [[UIWindow alloc] initWithFrame:[[UIScreen mainScreen] bounds]];
-    // Override point for customization after application launch.
-    self.window.backgroundColor = [UIColor whiteColor];
+    PCRSSReader *reader = [PCRSSReader new];
+    if([reader parse])
+    {
+        self.feed = reader.feed;
+    }
+    
+    self.window = [[UIWindow alloc]
+                   initWithFrame:[[UIScreen mainScreen] bounds]];
+    
+    // Set default background color to black
+    self.window.backgroundColor = [UIColor blackColor];
+    
+    
+    
+    
+    // Set Root view controller of the application
+    PCRootViewController *viewController =
+    [[PCRootViewController alloc] init];
+    
+    self.window.rootViewController = viewController;
+    
     [self.window makeKeyAndVisible];
     return YES;
 }

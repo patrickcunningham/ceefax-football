@@ -7,18 +7,36 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		F22914651899A932005BBA47 /* 300px-BBC_Ceefax_logo.png in Resources */ = {isa = PBXBuildFile; fileRef = F22914641899A932005BBA47 /* 300px-BBC_Ceefax_logo.png */; };
+		F2327C0E18A905B200E6F624 /* PCIPhoneView.m in Sources */ = {isa = PBXBuildFile; fileRef = F2327C0D18A905B200E6F624 /* PCIPhoneView.m */; };
+		F2327C1318A9085A00E6F624 /* PCIPadView.m in Sources */ = {isa = PBXBuildFile; fileRef = F2327C1218A9085A00E6F624 /* PCIPadView.m */; };
+		F2327C1618A9088200E6F624 /* PCIPadHeadlinesView.m in Sources */ = {isa = PBXBuildFile; fileRef = F2327C1518A9088200E6F624 /* PCIPadHeadlinesView.m */; };
+		F2327C1A18A9089F00E6F624 /* PCIPadStoryView.m in Sources */ = {isa = PBXBuildFile; fileRef = F2327C1918A9089F00E6F624 /* PCIPadStoryView.m */; };
+		F2327C1D18A9090600E6F624 /* PCIPhoneHeadlinesView.m in Sources */ = {isa = PBXBuildFile; fileRef = F2327C1C18A9090600E6F624 /* PCIPhoneHeadlinesView.m */; };
+		F2327C2018A909A700E6F624 /* PCIPhoneStoryView.m in Sources */ = {isa = PBXBuildFile; fileRef = F2327C1F18A909A700E6F624 /* PCIPhoneStoryView.m */; };
 		F249080F1895BCD1002C8D38 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F249080E1895BCD1002C8D38 /* Foundation.framework */; };
 		F24908111895BCD1002C8D38 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F24908101895BCD1002C8D38 /* CoreGraphics.framework */; };
 		F24908131895BCD1002C8D38 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F24908121895BCD1002C8D38 /* UIKit.framework */; };
 		F24908191895BCD1002C8D38 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = F24908171895BCD1002C8D38 /* InfoPlist.strings */; };
 		F249081B1895BCD1002C8D38 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = F249081A1895BCD1002C8D38 /* main.m */; };
-		F249081F1895BCD1002C8D38 /* PAC123_AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = F249081E1895BCD1002C8D38 /* PAC123_AppDelegate.m */; };
+		F249081F1895BCD1002C8D38 /* PCAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = F249081E1895BCD1002C8D38 /* PCAppDelegate.m */; };
 		F24908211895BCD1002C8D38 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F24908201895BCD1002C8D38 /* Images.xcassets */; };
 		F24908281895BCD1002C8D38 /* XCTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F24908271895BCD1002C8D38 /* XCTest.framework */; };
 		F24908291895BCD1002C8D38 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F249080E1895BCD1002C8D38 /* Foundation.framework */; };
 		F249082A1895BCD1002C8D38 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F24908121895BCD1002C8D38 /* UIKit.framework */; };
 		F24908321895BCD1002C8D38 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = F24908301895BCD1002C8D38 /* InfoPlist.strings */; };
 		F24908341895BCD1002C8D38 /* assignmentTests.m in Sources */ = {isa = PBXBuildFile; fileRef = F24908331895BCD1002C8D38 /* assignmentTests.m */; };
+		F249083F1895BD80002C8D38 /* PCRootViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = F249083E1895BD80002C8D38 /* PCRootViewController.m */; };
+		F2921CC418A9657200AD7F0B /* CoreLocation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F2921CC318A9657200AD7F0B /* CoreLocation.framework */; };
+		F2C6AC781896EFD2006DF16D /* MODES___.TTF in Resources */ = {isa = PBXBuildFile; fileRef = F2C6AC751896EFD2006DF16D /* MODES___.TTF */; };
+		F2C6AC791896EFD2006DF16D /* teletext_regular.ttf in Resources */ = {isa = PBXBuildFile; fileRef = F2C6AC761896EFD2006DF16D /* teletext_regular.ttf */; };
+		F2C6AC7A1896EFD2006DF16D /* TIFAX_text.ttf in Resources */ = {isa = PBXBuildFile; fileRef = F2C6AC771896EFD2006DF16D /* TIFAX_text.ttf */; };
+		F2DFCB9A1897E7BD00D5DB5F /* PCRSSReader.m in Sources */ = {isa = PBXBuildFile; fileRef = F2DFCB991897E7BD00D5DB5F /* PCRSSReader.m */; };
+		F2DFCB9E1897E86E00D5DB5F /* PCFeed.m in Sources */ = {isa = PBXBuildFile; fileRef = F2DFCB9D1897E86E00D5DB5F /* PCFeed.m */; };
+		F2DFCBA11897E87D00D5DB5F /* PCChannel.m in Sources */ = {isa = PBXBuildFile; fileRef = F2DFCBA01897E87D00D5DB5F /* PCChannel.m */; };
+		F2DFCBA41897E88900D5DB5F /* PCItem.m in Sources */ = {isa = PBXBuildFile; fileRef = F2DFCBA31897E88900D5DB5F /* PCItem.m */; };
+		F2E58E7C1898FA790047E78A /* PCItemViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = F2E58E7B1898FA790047E78A /* PCItemViewController.m */; };
+		F2E827581BE17B1100E06FE3 /* ceefaxFootball-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = F24908161895BCD1002C8D38 /* ceefaxFootball-Info.plist */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -32,22 +50,51 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		F249080B1895BCD1002C8D38 /* assignment.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = assignment.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		F22914641899A932005BBA47 /* 300px-BBC_Ceefax_logo.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "300px-BBC_Ceefax_logo.png"; sourceTree = "<group>"; };
+		F2327C0C18A905B200E6F624 /* PCIPhoneView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PCIPhoneView.h; sourceTree = "<group>"; };
+		F2327C0D18A905B200E6F624 /* PCIPhoneView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PCIPhoneView.m; sourceTree = "<group>"; };
+		F2327C1118A9085A00E6F624 /* PCIPadView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PCIPadView.h; sourceTree = "<group>"; };
+		F2327C1218A9085A00E6F624 /* PCIPadView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PCIPadView.m; sourceTree = "<group>"; };
+		F2327C1418A9088200E6F624 /* PCIPadHeadlinesView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PCIPadHeadlinesView.h; sourceTree = "<group>"; };
+		F2327C1518A9088200E6F624 /* PCIPadHeadlinesView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PCIPadHeadlinesView.m; sourceTree = "<group>"; };
+		F2327C1818A9089F00E6F624 /* PCIPadStoryView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PCIPadStoryView.h; sourceTree = "<group>"; };
+		F2327C1918A9089F00E6F624 /* PCIPadStoryView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PCIPadStoryView.m; sourceTree = "<group>"; };
+		F2327C1B18A9090600E6F624 /* PCIPhoneHeadlinesView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PCIPhoneHeadlinesView.h; sourceTree = "<group>"; };
+		F2327C1C18A9090600E6F624 /* PCIPhoneHeadlinesView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PCIPhoneHeadlinesView.m; sourceTree = "<group>"; };
+		F2327C1E18A909A700E6F624 /* PCIPhoneStoryView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PCIPhoneStoryView.h; sourceTree = "<group>"; };
+		F2327C1F18A909A700E6F624 /* PCIPhoneStoryView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PCIPhoneStoryView.m; sourceTree = "<group>"; };
+		F249080B1895BCD1002C8D38 /* ceefaxFootball.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ceefaxFootball.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		F249080E1895BCD1002C8D38 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
 		F24908101895BCD1002C8D38 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
 		F24908121895BCD1002C8D38 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
-		F24908161895BCD1002C8D38 /* assignment-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "assignment-Info.plist"; sourceTree = "<group>"; };
+		F24908161895BCD1002C8D38 /* ceefaxFootball-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "ceefaxFootball-Info.plist"; sourceTree = "<group>"; };
 		F24908181895BCD1002C8D38 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		F249081A1895BCD1002C8D38 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
-		F249081C1895BCD1002C8D38 /* assignment-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "assignment-Prefix.pch"; sourceTree = "<group>"; };
-		F249081D1895BCD1002C8D38 /* PAC123_AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = PAC123_AppDelegate.h; sourceTree = "<group>"; };
-		F249081E1895BCD1002C8D38 /* PAC123_AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = PAC123_AppDelegate.m; sourceTree = "<group>"; };
+		F249081C1895BCD1002C8D38 /* ceefaxFootball-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "ceefaxFootball-Prefix.pch"; sourceTree = "<group>"; };
+		F249081D1895BCD1002C8D38 /* PCAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = PCAppDelegate.h; sourceTree = "<group>"; };
+		F249081E1895BCD1002C8D38 /* PCAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = PCAppDelegate.m; sourceTree = "<group>"; };
 		F24908201895BCD1002C8D38 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
-		F24908261895BCD1002C8D38 /* assignmentTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = assignmentTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		F24908261895BCD1002C8D38 /* ceefaxFootballTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ceefaxFootballTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		F24908271895BCD1002C8D38 /* XCTest.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = XCTest.framework; path = Library/Frameworks/XCTest.framework; sourceTree = DEVELOPER_DIR; };
 		F249082F1895BCD1002C8D38 /* assignmentTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "assignmentTests-Info.plist"; sourceTree = "<group>"; };
 		F24908311895BCD1002C8D38 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		F24908331895BCD1002C8D38 /* assignmentTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = assignmentTests.m; sourceTree = "<group>"; };
+		F249083D1895BD80002C8D38 /* PCRootViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PCRootViewController.h; sourceTree = "<group>"; };
+		F249083E1895BD80002C8D38 /* PCRootViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PCRootViewController.m; sourceTree = "<group>"; };
+		F2921CC318A9657200AD7F0B /* CoreLocation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreLocation.framework; path = System/Library/Frameworks/CoreLocation.framework; sourceTree = SDKROOT; };
+		F2C6AC751896EFD2006DF16D /* MODES___.TTF */ = {isa = PBXFileReference; lastKnownFileType = file; path = "MODES___.TTF"; sourceTree = "<group>"; };
+		F2C6AC761896EFD2006DF16D /* teletext_regular.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = teletext_regular.ttf; sourceTree = "<group>"; };
+		F2C6AC771896EFD2006DF16D /* TIFAX_text.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = TIFAX_text.ttf; sourceTree = "<group>"; };
+		F2DFCB981897E7BD00D5DB5F /* PCRSSReader.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PCRSSReader.h; sourceTree = "<group>"; };
+		F2DFCB991897E7BD00D5DB5F /* PCRSSReader.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PCRSSReader.m; sourceTree = "<group>"; };
+		F2DFCB9C1897E86E00D5DB5F /* PCFeed.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PCFeed.h; sourceTree = "<group>"; };
+		F2DFCB9D1897E86E00D5DB5F /* PCFeed.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PCFeed.m; sourceTree = "<group>"; };
+		F2DFCB9F1897E87D00D5DB5F /* PCChannel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PCChannel.h; sourceTree = "<group>"; };
+		F2DFCBA01897E87D00D5DB5F /* PCChannel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PCChannel.m; sourceTree = "<group>"; };
+		F2DFCBA21897E88900D5DB5F /* PCItem.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PCItem.h; sourceTree = "<group>"; };
+		F2DFCBA31897E88900D5DB5F /* PCItem.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PCItem.m; sourceTree = "<group>"; };
+		F2E58E7A1898FA790047E78A /* PCItemViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PCItemViewController.h; sourceTree = "<group>"; };
+		F2E58E7B1898FA790047E78A /* PCItemViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PCItemViewController.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -55,6 +102,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				F2921CC418A9657200AD7F0B /* CoreLocation.framework in Frameworks */,
 				F24908111895BCD1002C8D38 /* CoreGraphics.framework in Frameworks */,
 				F24908131895BCD1002C8D38 /* UIKit.framework in Frameworks */,
 				F249080F1895BCD1002C8D38 /* Foundation.framework in Frameworks */,
@@ -74,6 +122,41 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		F2327C0B18A9055300E6F624 /* view */ = {
+			isa = PBXGroup;
+			children = (
+				F2327C1018A9080600E6F624 /* iPad */,
+				F2327C0F18A907F000E6F624 /* iPhone */,
+			);
+			name = view;
+			sourceTree = "<group>";
+		};
+		F2327C0F18A907F000E6F624 /* iPhone */ = {
+			isa = PBXGroup;
+			children = (
+				F2327C0C18A905B200E6F624 /* PCIPhoneView.h */,
+				F2327C0D18A905B200E6F624 /* PCIPhoneView.m */,
+				F2327C1B18A9090600E6F624 /* PCIPhoneHeadlinesView.h */,
+				F2327C1C18A9090600E6F624 /* PCIPhoneHeadlinesView.m */,
+				F2327C1E18A909A700E6F624 /* PCIPhoneStoryView.h */,
+				F2327C1F18A909A700E6F624 /* PCIPhoneStoryView.m */,
+			);
+			name = iPhone;
+			sourceTree = "<group>";
+		};
+		F2327C1018A9080600E6F624 /* iPad */ = {
+			isa = PBXGroup;
+			children = (
+				F2327C1118A9085A00E6F624 /* PCIPadView.h */,
+				F2327C1218A9085A00E6F624 /* PCIPadView.m */,
+				F2327C1418A9088200E6F624 /* PCIPadHeadlinesView.h */,
+				F2327C1518A9088200E6F624 /* PCIPadHeadlinesView.m */,
+				F2327C1818A9089F00E6F624 /* PCIPadStoryView.h */,
+				F2327C1918A9089F00E6F624 /* PCIPadStoryView.m */,
+			);
+			name = iPad;
+			sourceTree = "<group>";
+		};
 		F24908021895BCD1002C8D38 = {
 			isa = PBXGroup;
 			children = (
@@ -87,8 +170,8 @@
 		F249080C1895BCD1002C8D38 /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				F249080B1895BCD1002C8D38 /* assignment.app */,
-				F24908261895BCD1002C8D38 /* assignmentTests.xctest */,
+				F249080B1895BCD1002C8D38 /* ceefaxFootball.app */,
+				F24908261895BCD1002C8D38 /* ceefaxFootballTests.xctest */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -96,6 +179,7 @@
 		F249080D1895BCD1002C8D38 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
+				F2921CC318A9657200AD7F0B /* CoreLocation.framework */,
 				F249080E1895BCD1002C8D38 /* Foundation.framework */,
 				F24908101895BCD1002C8D38 /* CoreGraphics.framework */,
 				F24908121895BCD1002C8D38 /* UIKit.framework */,
@@ -107,10 +191,15 @@
 		F24908141895BCD1002C8D38 /* assignment */ = {
 			isa = PBXGroup;
 			children = (
-				F249081D1895BCD1002C8D38 /* PAC123_AppDelegate.h */,
-				F249081E1895BCD1002C8D38 /* PAC123_AppDelegate.m */,
+				F249081D1895BCD1002C8D38 /* PCAppDelegate.h */,
+				F249081E1895BCD1002C8D38 /* PCAppDelegate.m */,
 				F24908201895BCD1002C8D38 /* Images.xcassets */,
+				F2C6AC7E1896F2B9006DF16D /* controller */,
+				F2C6AC7F1896F2C4006DF16D /* lib */,
+				F2C6AC7B1896F29B006DF16D /* model */,
+				F2C6AC741896EF88006DF16D /* res */,
 				F24908151895BCD1002C8D38 /* Supporting Files */,
+				F2327C0B18A9055300E6F624 /* view */,
 			);
 			path = assignment;
 			sourceTree = "<group>";
@@ -118,10 +207,10 @@
 		F24908151895BCD1002C8D38 /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
-				F24908161895BCD1002C8D38 /* assignment-Info.plist */,
+				F24908161895BCD1002C8D38 /* ceefaxFootball-Info.plist */,
 				F24908171895BCD1002C8D38 /* InfoPlist.strings */,
 				F249081A1895BCD1002C8D38 /* main.m */,
-				F249081C1895BCD1002C8D38 /* assignment-Prefix.pch */,
+				F249081C1895BCD1002C8D38 /* ceefaxFootball-Prefix.pch */,
 			);
 			name = "Supporting Files";
 			sourceTree = "<group>";
@@ -144,12 +233,64 @@
 			name = "Supporting Files";
 			sourceTree = "<group>";
 		};
+		F2C6AC741896EF88006DF16D /* res */ = {
+			isa = PBXGroup;
+			children = (
+				F22914641899A932005BBA47 /* 300px-BBC_Ceefax_logo.png */,
+				F2C6AC751896EFD2006DF16D /* MODES___.TTF */,
+				F2C6AC761896EFD2006DF16D /* teletext_regular.ttf */,
+				F2C6AC771896EFD2006DF16D /* TIFAX_text.ttf */,
+			);
+			name = res;
+			sourceTree = "<group>";
+		};
+		F2C6AC7B1896F29B006DF16D /* model */ = {
+			isa = PBXGroup;
+			children = (
+				F2DFCB9B1897E85800D5DB5F /* RSS */,
+			);
+			name = model;
+			sourceTree = "<group>";
+		};
+		F2C6AC7E1896F2B9006DF16D /* controller */ = {
+			isa = PBXGroup;
+			children = (
+				F249083D1895BD80002C8D38 /* PCRootViewController.h */,
+				F249083E1895BD80002C8D38 /* PCRootViewController.m */,
+				F2E58E7A1898FA790047E78A /* PCItemViewController.h */,
+				F2E58E7B1898FA790047E78A /* PCItemViewController.m */,
+			);
+			name = controller;
+			sourceTree = "<group>";
+		};
+		F2C6AC7F1896F2C4006DF16D /* lib */ = {
+			isa = PBXGroup;
+			children = (
+				F2DFCB981897E7BD00D5DB5F /* PCRSSReader.h */,
+				F2DFCB991897E7BD00D5DB5F /* PCRSSReader.m */,
+			);
+			name = lib;
+			sourceTree = "<group>";
+		};
+		F2DFCB9B1897E85800D5DB5F /* RSS */ = {
+			isa = PBXGroup;
+			children = (
+				F2DFCB9C1897E86E00D5DB5F /* PCFeed.h */,
+				F2DFCB9D1897E86E00D5DB5F /* PCFeed.m */,
+				F2DFCB9F1897E87D00D5DB5F /* PCChannel.h */,
+				F2DFCBA01897E87D00D5DB5F /* PCChannel.m */,
+				F2DFCBA21897E88900D5DB5F /* PCItem.h */,
+				F2DFCBA31897E88900D5DB5F /* PCItem.m */,
+			);
+			name = RSS;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		F249080A1895BCD1002C8D38 /* assignment */ = {
+		F249080A1895BCD1002C8D38 /* ceefaxFootball */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = F24908371895BCD1002C8D38 /* Build configuration list for PBXNativeTarget "assignment" */;
+			buildConfigurationList = F24908371895BCD1002C8D38 /* Build configuration list for PBXNativeTarget "ceefaxFootball" */;
 			buildPhases = (
 				F24908071895BCD1002C8D38 /* Sources */,
 				F24908081895BCD1002C8D38 /* Frameworks */,
@@ -159,14 +300,14 @@
 			);
 			dependencies = (
 			);
-			name = assignment;
+			name = ceefaxFootball;
 			productName = assignment;
-			productReference = F249080B1895BCD1002C8D38 /* assignment.app */;
+			productReference = F249080B1895BCD1002C8D38 /* ceefaxFootball.app */;
 			productType = "com.apple.product-type.application";
 		};
-		F24908251895BCD1002C8D38 /* assignmentTests */ = {
+		F24908251895BCD1002C8D38 /* ceefaxFootballTests */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = F249083A1895BCD1002C8D38 /* Build configuration list for PBXNativeTarget "assignmentTests" */;
+			buildConfigurationList = F249083A1895BCD1002C8D38 /* Build configuration list for PBXNativeTarget "ceefaxFootballTests" */;
 			buildPhases = (
 				F24908221895BCD1002C8D38 /* Sources */,
 				F24908231895BCD1002C8D38 /* Frameworks */,
@@ -177,9 +318,9 @@
 			dependencies = (
 				F249082C1895BCD1002C8D38 /* PBXTargetDependency */,
 			);
-			name = assignmentTests;
+			name = ceefaxFootballTests;
 			productName = assignmentTests;
-			productReference = F24908261895BCD1002C8D38 /* assignmentTests.xctest */;
+			productReference = F24908261895BCD1002C8D38 /* ceefaxFootballTests.xctest */;
 			productType = "com.apple.product-type.bundle.unit-test";
 		};
 /* End PBXNativeTarget section */
@@ -197,7 +338,7 @@
 					};
 				};
 			};
-			buildConfigurationList = F24908061895BCD1002C8D38 /* Build configuration list for PBXProject "assignment" */;
+			buildConfigurationList = F24908061895BCD1002C8D38 /* Build configuration list for PBXProject "ceefaxFootball" */;
 			compatibilityVersion = "Xcode 3.2";
 			developmentRegion = English;
 			hasScannedForEncodings = 0;
@@ -209,8 +350,8 @@
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				F249080A1895BCD1002C8D38 /* assignment */,
-				F24908251895BCD1002C8D38 /* assignmentTests */,
+				F249080A1895BCD1002C8D38 /* ceefaxFootball */,
+				F24908251895BCD1002C8D38 /* ceefaxFootballTests */,
 			);
 		};
 /* End PBXProject section */
@@ -220,8 +361,13 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				F2C6AC791896EFD2006DF16D /* teletext_regular.ttf in Resources */,
+				F2C6AC7A1896EFD2006DF16D /* TIFAX_text.ttf in Resources */,
+				F2C6AC781896EFD2006DF16D /* MODES___.TTF in Resources */,
 				F24908191895BCD1002C8D38 /* InfoPlist.strings in Resources */,
+				F22914651899A932005BBA47 /* 300px-BBC_Ceefax_logo.png in Resources */,
 				F24908211895BCD1002C8D38 /* Images.xcassets in Resources */,
+				F2E827581BE17B1100E06FE3 /* ceefaxFootball-Info.plist in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -240,7 +386,19 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				F249081F1895BCD1002C8D38 /* PAC123_AppDelegate.m in Sources */,
+				F2DFCBA41897E88900D5DB5F /* PCItem.m in Sources */,
+				F2327C2018A909A700E6F624 /* PCIPhoneStoryView.m in Sources */,
+				F249081F1895BCD1002C8D38 /* PCAppDelegate.m in Sources */,
+				F2DFCBA11897E87D00D5DB5F /* PCChannel.m in Sources */,
+				F2327C1D18A9090600E6F624 /* PCIPhoneHeadlinesView.m in Sources */,
+				F2DFCB9A1897E7BD00D5DB5F /* PCRSSReader.m in Sources */,
+				F2327C0E18A905B200E6F624 /* PCIPhoneView.m in Sources */,
+				F249083F1895BD80002C8D38 /* PCRootViewController.m in Sources */,
+				F2327C1618A9088200E6F624 /* PCIPadHeadlinesView.m in Sources */,
+				F2E58E7C1898FA790047E78A /* PCItemViewController.m in Sources */,
+				F2327C1318A9085A00E6F624 /* PCIPadView.m in Sources */,
+				F2DFCB9E1897E86E00D5DB5F /* PCFeed.m in Sources */,
+				F2327C1A18A9089F00E6F624 /* PCIPadStoryView.m in Sources */,
 				F249081B1895BCD1002C8D38 /* main.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -258,7 +416,7 @@
 /* Begin PBXTargetDependency section */
 		F249082C1895BCD1002C8D38 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
-			target = F249080A1895BCD1002C8D38 /* assignment */;
+			target = F249080A1895BCD1002C8D38 /* ceefaxFootball */;
 			targetProxy = F249082B1895BCD1002C8D38 /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
@@ -363,9 +521,9 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
-				GCC_PREFIX_HEADER = "assignment/assignment-Prefix.pch";
-				INFOPLIST_FILE = "assignment/assignment-Info.plist";
-				PRODUCT_NAME = "$(TARGET_NAME)";
+				GCC_PREFIX_HEADER = "assignment/ceefaxFootball-Prefix.pch";
+				INFOPLIST_FILE = "assignment/ceefaxFootball-Info.plist";
+				PRODUCT_NAME = ceefaxFootball;
 				WRAPPER_EXTENSION = app;
 			};
 			name = Debug;
@@ -376,9 +534,9 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
-				GCC_PREFIX_HEADER = "assignment/assignment-Prefix.pch";
-				INFOPLIST_FILE = "assignment/assignment-Info.plist";
-				PRODUCT_NAME = "$(TARGET_NAME)";
+				GCC_PREFIX_HEADER = "assignment/ceefaxFootball-Prefix.pch";
+				INFOPLIST_FILE = "assignment/ceefaxFootball-Info.plist";
+				PRODUCT_NAME = ceefaxFootball;
 				WRAPPER_EXTENSION = app;
 			};
 			name = Release;
@@ -400,7 +558,7 @@
 					"$(inherited)",
 				);
 				INFOPLIST_FILE = "assignmentTests/assignmentTests-Info.plist";
-				PRODUCT_NAME = "$(TARGET_NAME)";
+				PRODUCT_NAME = ceefaxFootballTests;
 				TEST_HOST = "$(BUNDLE_LOADER)";
 				WRAPPER_EXTENSION = xctest;
 			};
@@ -419,7 +577,7 @@
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "assignment/assignment-Prefix.pch";
 				INFOPLIST_FILE = "assignmentTests/assignmentTests-Info.plist";
-				PRODUCT_NAME = "$(TARGET_NAME)";
+				PRODUCT_NAME = ceefaxFootballTests;
 				TEST_HOST = "$(BUNDLE_LOADER)";
 				WRAPPER_EXTENSION = xctest;
 			};
@@ -428,7 +586,7 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		F24908061895BCD1002C8D38 /* Build configuration list for PBXProject "assignment" */ = {
+		F24908061895BCD1002C8D38 /* Build configuration list for PBXProject "ceefaxFootball" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				F24908351895BCD1002C8D38 /* Debug */,
@@ -437,21 +595,23 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		F24908371895BCD1002C8D38 /* Build configuration list for PBXNativeTarget "assignment" */ = {
+		F24908371895BCD1002C8D38 /* Build configuration list for PBXNativeTarget "ceefaxFootball" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				F24908381895BCD1002C8D38 /* Debug */,
 				F24908391895BCD1002C8D38 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
-		F249083A1895BCD1002C8D38 /* Build configuration list for PBXNativeTarget "assignmentTests" */ = {
+		F249083A1895BCD1002C8D38 /* Build configuration list for PBXNativeTarget "ceefaxFootballTests" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				F249083B1895BCD1002C8D38 /* Debug */,
 				F249083C1895BCD1002C8D38 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

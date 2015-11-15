@@ -15,9 +15,9 @@
             <BuildableReference
                BuildableIdentifier = "primary"
                BlueprintIdentifier = "F249080A1895BCD1002C8D38"
-               BuildableName = "assignment.app"
-               BlueprintName = "assignment"
-               ReferencedContainer = "container:assignment.xcodeproj">
+               BuildableName = "ceefaxFootball.app"
+               BlueprintName = "ceefaxFootball"
+               ReferencedContainer = "container:ceefaxFootball.xcodeproj">
             </BuildableReference>
          </BuildActionEntry>
       </BuildActionEntries>
@@ -33,9 +33,9 @@
             <BuildableReference
                BuildableIdentifier = "primary"
                BlueprintIdentifier = "F24908251895BCD1002C8D38"
-               BuildableName = "assignmentTests.xctest"
-               BlueprintName = "assignmentTests"
-               ReferencedContainer = "container:assignment.xcodeproj">
+               BuildableName = "ceefaxFootballTests.xctest"
+               BlueprintName = "ceefaxFootballTests"
+               ReferencedContainer = "container:ceefaxFootball.xcodeproj">
             </BuildableReference>
          </TestableReference>
       </Testables>
@@ -43,9 +43,9 @@
          <BuildableReference
             BuildableIdentifier = "primary"
             BlueprintIdentifier = "F249080A1895BCD1002C8D38"
-            BuildableName = "assignment.app"
-            BlueprintName = "assignment"
-            ReferencedContainer = "container:assignment.xcodeproj">
+            BuildableName = "ceefaxFootball.app"
+            BlueprintName = "ceefaxFootball"
+            ReferencedContainer = "container:ceefaxFootball.xcodeproj">
          </BuildableReference>
       </MacroExpansion>
    </TestAction>
@@ -62,9 +62,9 @@
          <BuildableReference
             BuildableIdentifier = "primary"
             BlueprintIdentifier = "F249080A1895BCD1002C8D38"
-            BuildableName = "assignment.app"
-            BlueprintName = "assignment"
-            ReferencedContainer = "container:assignment.xcodeproj">
+            BuildableName = "ceefaxFootball.app"
+            BlueprintName = "ceefaxFootball"
+            ReferencedContainer = "container:ceefaxFootball.xcodeproj">
          </BuildableReference>
       </BuildableProductRunnable>
       <AdditionalOptions>
@@ -80,9 +80,9 @@
          <BuildableReference
             BuildableIdentifier = "primary"
             BlueprintIdentifier = "F249080A1895BCD1002C8D38"
-            BuildableName = "assignment.app"
-            BlueprintName = "assignment"
-            ReferencedContainer = "container:assignment.xcodeproj">
+            BuildableName = "ceefaxFootball.app"
+            BlueprintName = "ceefaxFootball"
+            ReferencedContainer = "container:ceefaxFootball.xcodeproj">
          </BuildableReference>
       </BuildableProductRunnable>
    </ProfileAction>
