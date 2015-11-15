@@ -28,7 +28,8 @@ The RSS feed should be stored cached or possibly stored locally for when the app
 
 ###Network Resources or Sprite Kit
 A live RSS feed from the BBC Sport website will be used to gather the headlines and stories for each page.  As the feeds used for the Ceefax service have been turned off, therefore the correct amount of data to load a typical ceefax news page no longer exists, a simple description from an RSS feed item will be used and a clickable link will be added so the user can go to the internet to get more information on the story.
-Data Parsing
+
+###Data Parsing
 An RSS formatted xml feed will be parsed and displayed in Teletext style
 
 ###Location Detection
